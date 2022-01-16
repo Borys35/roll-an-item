@@ -1,5 +1,5 @@
 <template>
-  <p>&copy; 2022, Borys Kaczmarek</p>
+  <p>&copy; {{ new Date().getFullYear() }}, Borys Kaczmarek</p>
 </template>
 
 <script lang="ts">
@@ -10,8 +10,11 @@ export default defineComponent({
 });
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 p {
   text-align: center;
+  max-width: $lg-bp;
+  margin: 0 auto;
+  padding: 1rem 2rem;
 }
 </style>

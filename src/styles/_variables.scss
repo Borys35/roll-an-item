@@ -6,6 +6,17 @@ $dark-grey: #131417;
 $grey: #24252c;
 $light-grey: #292a31;
 $lighter-grey: #2f3038;
+$red: #e51e1e;
+
+// Font sizes
+$font-xs: 0.75rem; // 12px
+$font-sm: 0.875rem; // 14px
+$font-md: 1rem; // 16px (default)
+$font-lg: 1.25rem; // 20px
+$font-xl: 1.5rem; // 24px
+$font-2xl: 2rem; // 32px
+$font-3xl: 3rem; // 48px
+$font-4xl: 4rem; // 64px
 
 // Breakpoints
 // Phones
@@ -18,3 +29,6 @@ $md-bp: 768px;
 $lg-bp: 992px;
 // Wide desktop
 $xl-bp: 1200px;
+
+// Spacing
+$base-spacing: 2rem;
